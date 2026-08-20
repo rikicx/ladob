@@ -33,7 +33,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
     <a class="nav__link" href="#estudio">Estúdio</a>
   </nav>
   <div class="nav__right">
-    <a class="btn btn--solid" href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener" data-cursor="agendar"><span class="btn__dot"></span>Agendar agora</a>
+    <a class="btn btn--solid" href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" data-cursor="agendar"><span class="btn__dot"></span>Agendar agora</a>
     <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
   </div>
 </header>
@@ -52,7 +52,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
       <span class="label">Jardim Vila Mariana</span>
       <p class="dim" style="margin-top:.4rem">Rua Pedro Pomponazzi, 71<br>São Paulo — SP</p>
     </div>
-    <a class="btn" href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener"><span class="btn__dot"></span>Agendar no WhatsApp</a>
+    <a class="btn" href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"><span class="btn__dot"></span>Agendar no WhatsApp</a>
   </div>
 </div>
 
@@ -64,7 +64,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
 </aside>
 
 <!-- ===== WHATSAPP FIXO ===== -->
-<a class="wa" id="wa" href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener" aria-label="Falar no WhatsApp com o Lado B CK">
+<a class="wa" id="wa" href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" aria-label="Falar no WhatsApp com o Lado B CK">
   <span class="wa__pulse" aria-hidden="true"></span>
   <span class="wa__icon" aria-hidden="true"><img src="/images/whatsapp-icon.png" alt="" width="26" height="26"></span>
   <span class="wa__txt">Agendar no WhatsApp</span>
@@ -103,7 +103,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
     <h1 class="hero__title display" data-split>Existe um lado seu que ainda não foi <span class="serif-it">revelado</span>.</h1>
     <p class="hero__sub" data-reveal style="--d:.55s">Cabelo, unhas, cílios, pele e o dia mais importante da sua vida — tratados com o cuidado de quem entende que autoestima não é detalhe. É o resultado.</p>
     <div class="hero__actions" data-reveal style="--d:.7s">
-      <a class="btn btn--solid" href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener" data-cursor="agendar"><span class="btn__dot"></span>Agendar agora</a>
+      <a class="btn btn--solid" href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" data-cursor="agendar"><span class="btn__dot"></span>Agendar agora</a>
       <a class="btn" href="#servicos">Conhecer os serviços</a>
     </div>
   </div>
@@ -349,7 +349,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
           <div class="bridal__pt" data-reveal style="--d:.2s"><b>03</b><p><strong>Ambiente privativo</strong> para criar memórias inesquecíveis com as madrinhas.</p></div>
         </div>
         <div style="margin-top:2.4rem" data-reveal>
-          <a class="btn btn--solid" href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener" data-cursor="falar"><span class="btn__dot"></span>Falar sobre meu casamento</a>
+          <a class="btn btn--solid" href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20conversar%20sobre%20o%20Dia%20da%20Noiva." target="_blank" rel="noopener" data-cursor="falar"><span class="btn__dot"></span>Falar sobre meu casamento</a>
         </div>
       </div>
 
@@ -451,7 +451,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
           <dt>Horários</dt>
           <dd>Terça a sábado, 08:00 – 20:00<br><small>Domingo e segunda: fechado · atendimento com hora marcada</small></dd>
           <dt>Contato</dt>
-          <dd><a class="ulink" href="tel:+5511968542734">(11) 96854-2734</a><br><small><a class="ulink" href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener">WhatsApp</a> · <a class="ulink" href="https://www.instagram.com/ladobck/" target="_blank" rel="noopener">@ladobck</a></small></dd>
+          <dd><a class="ulink" href="tel:+5511968542734">(11) 96854-2734</a><br><small><a class="ulink" href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">WhatsApp</a> · <a class="ulink" href="https://www.instagram.com/ladobck/" target="_blank" rel="noopener">@ladobck</a></small></dd>
         </dl>
         <div data-reveal style="--d:.5s">
           <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Pedro+Pomponazzi,+71+-+Jardim+Vila+Mariana,+S%C3%A3o+Paulo" target="_blank" rel="noopener">Ver no mapa</a>
@@ -472,7 +472,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
     <h2 class="display" data-split style="margin-top:.4rem">Você está a um clique de transformar sua <span class="serif-it">beleza</span>.</h2>
     <p data-reveal style="--d:.4s">Conte o que você quer mudar. A gente responde com um plano — e uma data.</p>
     <div data-reveal style="--d:.5s; margin-top:.6rem">
-      <a class="btn btn--solid" href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener" data-cursor="agendar"><span class="btn__dot"></span>Agendar agora</a>
+      <a class="btn btn--solid" href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" data-cursor="agendar"><span class="btn__dot"></span>Agendar agora</a>
     </div>
   </div>
 </section>
@@ -503,7 +503,7 @@ export const siteMarkup = `<!-- ===== GRÃO ===== -->
       <div>
         <h4>Contato</h4>
         <ul>
-          <li><a href="https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">WhatsApp</a></li>
           <li><a href="tel:+5511968542734">(11) 96854-2734</a></li>
           <li><a href="https://www.instagram.com/ladobck/" target="_blank" rel="noopener">Instagram @ladobck</a></li>
           <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Pedro+Pomponazzi,+71+-+Jardim+Vila+Mariana,+S%C3%A3o+Paulo" target="_blank" rel="noopener">Rua Pedro Pomponazzi, 71 — SP</a></li>

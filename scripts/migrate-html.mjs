@@ -45,6 +45,17 @@ for (const [remote, local] of assetMap) {
   migratedBody = migratedBody.replaceAll(remote, local);
 }
 
+const legacyWhatsAppUrl = "https://tintim.link/whatsapp/4b9fc82c-f263-4b19-b466-45c290edb2f7/000b1b56-732b-402b-8746-9e3dd65e5e18";
+const bookingWhatsAppUrl = "https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.";
+const bridalWhatsAppUrl = "https://wa.me/5511968542734?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20Studio%20Lado%20B%20CK%20e%20gostaria%20de%20conversar%20sobre%20o%20Dia%20da%20Noiva.";
+
+migratedBody = migratedBody
+  .replaceAll(legacyWhatsAppUrl, bookingWhatsAppUrl)
+  .replace(
+    `href="${bookingWhatsAppUrl}" target="_blank" rel="noopener" data-cursor="falar"`,
+    `href="${bridalWhatsAppUrl}" target="_blank" rel="noopener" data-cursor="falar"`,
+  );
+
 migratedBody = migratedBody.replace(
   /<span class="wa__icon" aria-hidden="true">[\s\S]*?<\/span>\s*<span class="wa__txt">/,
   '<span class="wa__icon" aria-hidden="true"><img src="/images/whatsapp-icon.png" alt="" width="26" height="26"></span>\n  <span class="wa__txt">',
