@@ -237,10 +237,10 @@
         var r = m.getBoundingClientRect();
         var mx = (e.clientX - r.left - r.width/2) * 0.22;
         var my = (e.clientY - r.top - r.height/2) * 0.28;
-        m.style.transform = (m.classList.contains("wa") && win.innerWidth > 760 ? "translateY(-50%) " : "") + "translate("+mx+"px,"+my+"px)";
+        m.style.transform = "translate("+mx+"px,"+my+"px)";
       });
       m.addEventListener("mouseleave", function(){
-        m.style.transform = (m.classList.contains("wa") && win.innerWidth > 760 ? "translateY(-50%)" : "");
+        m.style.transform = "";
       });
     });
   }

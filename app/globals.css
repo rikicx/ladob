@@ -214,7 +214,7 @@ body.menu-open .menu__list a{transform:translateY(0)}
 
 /* ---------- WHATSAPP fixo ---------- */
 .wa{
-  position:fixed; right:clamp(.85rem,1.6vw,1.6rem); top:50%; transform:translateY(-50%);
+  position:fixed; right:clamp(.85rem,1.6vw,1.6rem); bottom:calc(clamp(.85rem,1.6vw,1.6rem) + env(safe-area-inset-bottom));
   z-index:940; display:flex; align-items:center; gap:.7rem;
   padding:.78rem; padding-right:.78rem; border-radius:100px;
   background:#0F1A14; border:1px solid rgba(201,160,99,.32);
@@ -234,7 +234,7 @@ body.menu-open .menu__list a{transform:translateY(0)}
 .wa__pulse{position:absolute; inset:0; border-radius:inherit; border:1px solid rgba(95,203,126,.45); animation:waPulse 3.6s var(--ease) infinite}
 @keyframes waPulse{0%{transform:scale(1); opacity:.55} 70%{transform:scale(1.28); opacity:0} 100%{opacity:0}}
 @media (max-width:760px){
-  .wa{top:auto; bottom:calc(1rem + env(safe-area-inset-bottom)); transform:none}
+  .wa{right:1rem; bottom:calc(1rem + env(safe-area-inset-bottom))}
   .hero__foot-in{padding-block:.85rem}
   .hero__meta{gap:1.6rem; flex-wrap:nowrap}
   .hero__meta div:nth-child(2){display:none}

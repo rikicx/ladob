@@ -56,6 +56,8 @@ const migratedCss = css
   .replace('--ff-mono:"DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;', '--ff-mono:var(--font-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;')
   .replace('.display{font-family:var(--ff-display); font-weight:400; line-height:.9; letter-spacing:-.022em}', '.display{font-family:var(--ff-display); font-weight:500; line-height:.94; letter-spacing:-.04em}')
   .replace('.serif-it{font-family:var(--ff-display); font-style:italic; font-weight:400}', '.serif-it{font-family:var(--ff-display); font-style:normal; font-weight:300; color:var(--brass)}')
+  .replace('position:fixed; right:clamp(.85rem,1.6vw,1.6rem); top:50%; transform:translateY(-50%);', 'position:fixed; right:clamp(.85rem,1.6vw,1.6rem); bottom:calc(clamp(.85rem,1.6vw,1.6rem) + env(safe-area-inset-bottom));')
+  .replace('.wa{top:auto; bottom:calc(1rem + env(safe-area-inset-bottom)); transform:none}', '.wa{right:1rem; bottom:calc(1rem + env(safe-area-inset-bottom))}')
   .replace('.wa__icon svg{width:100%; height:100%; fill:#5FCB7E}', '.wa__icon img{width:100%; height:100%; object-fit:contain}')
   .replace('.footer__logo{display:flex; justify-content:center; padding-block:clamp(.5rem,2vh,1.6rem)}', '.footer__logo{display:flex; justify-content:center; padding-block:clamp(1.5rem,4vh,3rem); border-top:1px solid var(--line)}')
   .replace('.footer__logo img{width:min(78vw,780px); height:auto; opacity:.92; mix-blend-mode:screen}', '.footer__logo img{width:clamp(150px,18vw,260px); height:auto; opacity:.88; mix-blend-mode:screen}');
@@ -69,6 +71,10 @@ await mkdir(resolve(project, "app"), { recursive: true });
 await mkdir(resolve(project, "public"), { recursive: true });
 await writeFile(resolve(project, "app/globals.css"), migratedCss.trim() + "\n");
 await writeFile(resolve(project, "app/site-markup.ts"), `export const siteMarkup = \`${escapedMarkup}\`;\n`);
-await writeFile(resolve(project, "public/site.js"), script.trim() + "\n");
+const migratedScript = script
+  .replace('(m.classList.contains("wa") && win.innerWidth > 760 ? "translateY(-50%) " : "") + "translate("+mx+"px,"+my+"px)"', '"translate("+mx+"px,"+my+"px)"')
+  .replace('(m.classList.contains("wa") && win.innerWidth > 760 ? "translateY(-50%)" : "")', '""');
+
+await writeFile(resolve(project, "public/site.js"), migratedScript.trim() + "\n");
 
 console.log(`Migrado: ${assetMap.size} imagens externas mapeadas.`);
